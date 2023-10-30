@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Extract repository name
+        shell: bash
+        run: echo "repository=${{ github.event.pull_request.head.repo.full_name || github.repository }}" >> $GITHUB_OUTPUT
+        id: extract_repository
       - name: Extract branch name
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
@@ -18,5 +22,5 @@ jobs:
       - uses: Jtalk/setup-sbt@v2
         with:
           version: 1.9.7
-      - run: yes '' | sbt new lachezar/zio-scala-3-project.g8 --branch ${{ steps.extract_branch.outputs.branch }}
+      - run: yes '' | sbt new ${{ steps.extract_repository.outputs.repository }} --branch ${{ steps.extract_branch.outputs.branch }}
       - run: cd zio-scala-3-project && sbt compile && sbt test
