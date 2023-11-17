@@ -12,7 +12,7 @@ val postgresqlVersion     = "42.6.0"
 val flywayVersion         = "10.0.1"
 val chimneyVersion        = "0.8.2"
 val testContainersVersion = "0.41.0"
-val zioMockVersion        = "1.0.0-RC11"
+val zioMockVersion        = "1.0.0-RC12"
 
 // This build is for this Giter8 template.
 // To test the template run `g8` or `g8Test` from the sbt session.

@@ -11,7 +11,7 @@ val postgresqlVersion     = "42.6.0"
 val flywayVersion         = "10.0.1"
 val chimneyVersion        = "0.8.2"
 val testContainersVersion = "0.41.0"
-val zioMockVersion        = "1.0.0-RC11"
+val zioMockVersion        = "1.0.0-RC12"
 
 lazy val quillNamingStrategy =
   (project in file("quill"))
