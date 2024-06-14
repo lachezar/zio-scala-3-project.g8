@@ -5,4 +5,4 @@ addSbtPlugin("org.jmotor.sbt"            % "sbt-dependency-updates" % "1.2.9")
 addSbtPlugin("nl.gn0s1s"                 % "sbt-dotenv"             % "3.0.0")
 addSbtPlugin("org.wartremover"           % "sbt-wartremover"        % "3.1.6")
 addSbtPlugin("org.foundweekends.giter8" %% "sbt-giter8"             % "0.16.2")
-libraryDependencies += "org.scala-sbt"  %% "scripted-plugin"        % sbtVersion.value
+libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % sbtVersion.value
