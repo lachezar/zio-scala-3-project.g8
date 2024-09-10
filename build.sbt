@@ -1,6 +1,6 @@
 // Dependencies are needed for Scala Steward to check if there are newer versions
 val zioVersion            = "2.1.9"
-val zioHttpVersion        = "3.0.0-RC10"
+val zioHttpVersion        = "3.0.0"
 val zioKafkaVersion       = "2.8.2"
 val zioJsonVersion        = "0.7.3"
 val zioPreludeVersion     = "1.0.0-RC31"
