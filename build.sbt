@@ -10,7 +10,7 @@ val logbackClassicVersion = "1.5.9"
 val quillVersion          = "4.8.5"
 val postgresqlVersion     = "42.7.4"
 val flywayVersion         = "10.19.0"
-val chimneyVersion        = "1.4.0"
+val chimneyVersion        = "1.5.0"
 val testContainersVersion = "0.41.4"
 val zioMockVersion        = "1.0.0-RC12"
 
