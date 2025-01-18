@@ -21,7 +21,8 @@ final case class PrivateApiHandler(authService: AuthService, itemService: ItemSe
 
   def updateItem(authHeader: Option[String], id: ItemId, input: UpdateItemInput[ValidationStatus.NonValidated.type])
       : IO[
-        AuthError | RequestError | RepositoryError.DbEx | RepositoryError.MissingEntity | RepositoryError.ConversionError | NonEmptyChunk[ItemValidationError],
+        AuthError | RequestError | RepositoryError.DbEx | RepositoryError.MissingEntity |
+          RepositoryError.ConversionError | NonEmptyChunk[ItemValidationError],
         ItemResult,
       ] =
     for {
