@@ -11,7 +11,7 @@ val quillVersion          = "4.8.5"
 val postgresqlVersion     = "42.7.5"
 val flywayVersion         = "11.2.0"
 val chimneyVersion        = "1.6.0"
-val testContainersVersion = "0.41.5"
+val testContainersVersion = "0.41.8"
 val zioMockVersion        = "1.0.0-RC12"
 
 // This build is for this Giter8 template.
