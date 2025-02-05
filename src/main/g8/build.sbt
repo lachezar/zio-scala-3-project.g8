@@ -1,4 +1,4 @@
-val zioVersion            = "2.1.14"
+val zioVersion            = "2.1.15"
 val zioHttpVersion        = "3.0.1"
 val zioKafkaVersion       = "2.8.2"
 val zioJsonVersion        = "0.7.7"
