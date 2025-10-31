@@ -1,6 +1,6 @@
 addSbtPlugin("com.github.sbt"            % "sbt-native-packager"    % "1.11.3")
 addSbtPlugin("org.typelevel"             % "sbt-tpolecat"           % "0.5.2")
-addSbtPlugin("org.scalameta"             % "sbt-scalafmt"           % "2.5.5")
+addSbtPlugin("org.scalameta"             % "sbt-scalafmt"           % "2.5.6")
 addSbtPlugin("org.jmotor.sbt"            % "sbt-dependency-updates" % "1.2.9")
 addSbtPlugin("nl.gn0s1s"                 % "sbt-dotenv"             % "3.2.0")
 addSbtPlugin("org.wartremover"           % "sbt-wartremover"        % "3.4.1")
